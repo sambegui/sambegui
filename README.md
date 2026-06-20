@@ -8,11 +8,7 @@ Four years building internal tooling and automation in IT/operations roles; now 
 
 - **[`agent-vm` → BoundaryKit](https://github.com/sambegui/agent-vm)** — a public **reference architecture** for governing untrusted autonomous AI-agent workloads. Isolation substrate (nested-virt golden VM + ephemeral Kata microVMs), a promotion control plane (dry-run-by-default, cosign-signed + digest-pinned releases, drift detection, rollback receipts), and a governance overlay (risk tiers L0–L5, fail-closed tool allowlists, default-deny egress, audit trails). Documented **STRIDE/PASTA threat model**. Scoped honestly as a *validated walking skeleton*, not a product. → **agent-vm.sabe.dev**
 
-- **[`openclaw`](https://github.com/sambegui/openclaw)** — local-first AI-assistant tooling, **built on a fork of `openclaw/openclaw`**. My work focuses on [VERIFY: what *you* added — e.g., running it inside BoundaryKit isolation, human-approval gates before write actions, specific tool integrations]. <!-- Keep this only for what you personally built on top of the fork. -->
-
-<!-- OPTIONAL — include ONLY if you have merged PRs upstream:
-- [`hermes-agent`](https://github.com/NousResearch/hermes-agent) — [VERIFY: "N merged PRs adding X"]. If you don't have merged contributions, delete this line and unpin the repo — pinning a large upstream project without merged PRs invites a screening question you don't want.
--->
+- **[`hermes-agent`](https://github.com/NousResearch/hermes-agent)** — authored open [PR #45460](https://github.com/NousResearch/hermes-agent/pull/45460), hardening Google Meet live caption capture in the local agent workflow.
 
 ## what i work with
 
